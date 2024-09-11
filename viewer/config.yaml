@@ -1,14 +1,13 @@
-# 外参
+# ext
 lidar2odo:
-  - [ 0.01905296,  0.99960053,  0.02087493,  0.11311129]
-  - [ 0.39171838,  0.01174645, -0.92001018,  0.1651408 ]
-  - [-0.91988788,  0.02570601, -0.39133809,  1.3006663 ]
-  - [ 0.        ,  0.        ,  0.        ,  1.        ]
+    - [ 0.01905296,  0.99960053,  0.02087493,  0.11311129]
+    - [ 0.39171838,  0.01174645, -0.92001018,  0.1651408 ]
+    - [-0.91988788,  0.02570601, -0.39133809,  1.3006663 ]
+    - [ 0.        ,  0.        ,  0.        ,  1.        ]
 
+# pcd dir abs-path
+pcd_dir: /home/frank/data/G3/can_calib/20240726/all_pcds
 
-# pcd文件夹 abs-path
-pcd_dir: 'data/pcd'
-
-
-# odom txt文件 abs-path
-odom_txt: 'data/odom.txt'
+# odom txt abs-path
+odom_txt: /home/frank/data/G3/can_calib/wheel_odom-poses.txt
+# odom_txt: '/home/frank/data/G3/can_calib/lidar-poses_tanway.txt'
